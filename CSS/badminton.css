@@ -1,0 +1,195 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+
+#drop              /*Dropdown Of Sports*/
+{
+	display:none;
+	overflow:hidden;
+	position:absolute;
+	width:200px;
+	
+}
+#drop a            /*Dropdown Of Sports*/
+{
+	text-decoration:none;
+	color:white;
+	margin-left:50px;
+}
+
+.nav_menu li a    
+{
+	font-family: 'Open Sans', sans-serif;     /*Font-Style for menus*/
+	margin:0px 10px 0px 10px;              
+}
+.sub_options:hover
+{
+background-color:red;
+
+}
+.nav_hover::after
+{
+	content:'';
+	display:block;
+	width:0px;
+	height:3px;
+	background:red;
+	transition:width .3s;
+}
+.nav_hover:hover::after
+{
+	width:100%;
+	transition:width .3s;
+}
+
+/*SocialMedia HoverEffects Starts Here*/
+.facebook:hover
+{
+	background-color:blue;
+}
+
+.twitter:hover,.behance:hover
+{
+	background-color:#12EDFF;
+}
+
+/*SocialMedia HoverEffects Ends Here*/
+/*
+.hexagon
+{
+	position: absolute;
+	width: 400px;
+	height: 180px;
+	background-color:transparent;
+	overflow: hidden;
+	transform:rotate(270deg);
+
+}
+.hexagon-inner
+{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	transform: rotate(-60deg);
+	overflow: hidden;
+	
+}
+.hexagon-inner-in
+{
+	width: 100%;
+	height: 100%;
+	position:relative;
+	background-image: url(../IMAGES/Badminton/ashwini.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	overflow: hidden;
+}
+
+.hexagon-inner-in2
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../IMAGES/Badminton/saina.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.hexagon-inner-in3
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../IMAGES/Badminton/sindhu.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.hexagon-inner-in4
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../IMAGES/Badminton/Blog-5-final300.jpg);
+	background-size: contain;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.hexagon-inner-in5
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../IMAGES/Badminton/Blog-10-final300.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+
+.hexa
+{
+
+	position: absolute;
+	width: 400px;
+	height: 180px;
+	background-color:transparent;
+	overflow: hidden;
+	transform:rotate(270deg);
+
+}
+.hexa-in
+{
+
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	transform: rotate(-60deg);
+	overflow: hidden;
+
+}
+.hexa-img
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../IMAGES/Badminton/ashwini.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+
+.hexa-img2
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../IMAGES/Badminton/Blog-5-final300.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.hexa-img3
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../IMAGES/Badminton/Blog-7-final300.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.hexa-img4
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../IMAGES/Badminton/ashwini.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+*/

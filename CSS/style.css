@@ -1,0 +1,308 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+	
+
+#loading
+{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url('../IMAGES/sports.gif') center;
+	z-index: 99999;
+	background-repeat: no-repeat;
+
+}
+.registration li a
+{
+	padding: 10px;
+}
+.registration li a:hover
+{
+	background-color:#b81e20;
+	clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
+	position: relative;
+	width:115%;
+	text-align: center;
+}
+
+#drop              /*Dropdown Of Sports*/
+{
+	display:none;
+	overflow:hidden;
+	position:absolute;
+	width:200px;
+	
+}
+#drop a            /*Dropdown Of Sports*/
+{
+	text-decoration:none;
+	color:white;
+	margin-left:50px;
+}
+
+.nav_menu li a    
+{
+	font-family: 'Open Sans', sans-serif;     /*Font-Style for menus*/
+	margin:0px 10px 0px 10px;              
+}
+
+.sports_pictures_carousel
+{
+	width:100%;
+	height:500px;
+}
+/*SubOptions Of Sports HoverEffects*/
+.sub_options:hover
+{
+background-color:red;
+
+}
+
+.nav_hover::after
+{
+	content:'';
+	display:block;
+	width:0px;
+	height:3px;
+	background:red;
+	transition:width .3s;
+}
+.nav_hover:hover::after
+{
+	width:100%;
+	transition:width .3s;
+}
+
+.facebook,.twitter,.behance
+{
+	border: white solid 1px;
+}
+.twitter:hover,.behance:hover
+{
+	background-color:#12EDFF;
+	border: none;
+}
+.facebook:hover
+{
+	background-color: #2994FF;
+	border: none;
+}
+
+/*SocialMedia HoverEffects Ends Here*/
+
+.carousel_icon_indicator_home
+{
+	padding:10px 10px;
+	background-color:red;
+}
+.matches_button
+{
+	text-align: center;
+}
+.latest_results
+{
+margin-top: 100px;	
+}
+.next_match
+{
+	box-sizing:border-box;
+	height:400px;
+}
+.next_match_first
+{
+	padding: 85px;
+}
+
+.arrows
+{
+	position: relative;
+
+}
+.arrows_pre
+{
+	position: absolute;
+	top:0px;
+
+	
+}
+.arrows_nex
+{
+	position: absolute;
+	top:0px;
+}
+
+
+.scrollHide
+{
+	overflow-y:scroll;
+	
+}
+.scrollHide::-webkit-scrollbar
+{
+	width:0px;
+	background:transparent;
+}
+.booking:hover
+{
+background:#b81e20;
+color:white;	
+cursor:pointer;
+}
+
+.video_side:hover
+{
+	background:#232a32;
+	color:white;
+	cursor:pointer;
+}
+.social_network
+{
+	box-sizing:border-box;
+	animation:slide;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	
+	
+}
+
+@keyframes slide
+{
+	
+0%{background-image:url(../IMAGES/Stadium/1.jfif);background-size:100% 100%;opacity:0.5;}
+20%{background-image:url(../IMAGES/Stadium/4.jfif);background-size:100% 100%;opacity:0.5;}
+40%{background-image:url(../IMAGES/Stadium/3.jfif);background-size:100% 100%;opacity:0.5;}
+60%{background-image:url(../IMAGES/Stadium/4.jfif);background-size:100% 100%;opacity:0.5;}
+100%{background-image:url(../IMAGES/Stadium/5.jfif);background-size:100% 100%;opacity:0.5;}
+}
+
+.skew
+{
+	  width: 400px;
+      height: 0;
+      border-left: 150px solid transparent;
+      border-top: 0px solid transparent;
+      border-bottom: 400px solid #b81e20;
+	  margin-left:-220px;
+	  
+}
+.pointedtableBox
+{
+	  position:absolute;
+	  width: 10%;
+      height: 0;
+      border-right:100px solid transparent;
+      border-top: 400px solid #b81e20;
+	  top:0px;
+	  left:0px
+}
+
+	#signup
+	{
+	display:none;
+	}
+
+@media only screen and (max-width:468px)
+{
+	h1
+	{
+		font-size:32px;
+	}
+	h2
+	{
+		font-size: 26px;
+	}
+	h3
+	{
+		font-size: 22px;
+	}
+	h4
+	{
+		font-size: 18px;
+	}
+	p
+	{
+		text-align: justify;
+		padding: none;
+		margin:none;
+	}
+	.registration li a
+	{
+		padding: 3px;
+		text-align:center;
+	}
+	.registration li a:hover
+	{
+		background-color:#b81e20;
+		clip-path:none;
+		position: none;
+		width:100%;
+		text-align: center;
+	}
+	.nav_menu ul li a
+	{
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;     /*Font-Style for menus*/
+	margin:0px;  
+	}
+	.sports_pictures_carousel img
+{
+	width:100%;
+	height:470px;
+}
+.social_media
+{
+	margin: auto;
+}
+.matches_button
+{
+	margin:auto;
+}
+.latest_results
+{
+margin-top: 0px;
+}
+.next_match
+{
+	box-sizing:border-box;
+	height:2000px;
+}
+.next_match_first
+{
+	padding:0px;
+
+}
+.next_match_third
+{
+height: 200px;	
+}
+.video_side
+{
+	padding: 0px;
+	width: 100%;
+}
+.video_side:hover
+{
+	background:#232a32;
+	color:white;
+	cursor:pointer;
+}
+.latest_news
+{
+	margin-top: 50px;
+}
+.club_video
+{
+	width:200px;
+	height:250px;
+}
+
+.social_network
+{
+	animation:none;	
+}
+
+}

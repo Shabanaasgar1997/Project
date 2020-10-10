@@ -1,0 +1,62 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+
+#drop              /*Dropdown Of Sports*/
+{
+	display:none;
+	overflow:hidden;
+	position:absolute;
+	width:200px;
+	
+}
+#drop a            /*Dropdown Of Sports*/
+{
+	text-decoration:none;
+	color:white;
+	margin-left:50px;
+}
+
+.nav_menu li a    
+{
+	font-family: 'Open Sans', sans-serif;     /*Font-Style for menus*/
+	margin:0px 10px 0px 10px;              
+}
+.sub_options:hover
+{
+background-color:red;
+
+}
+.nav_hover::after
+{
+	content:'';
+	display:block;
+	width:0px;
+	height:3px;
+	background:red;
+	transition:width .3s;
+}
+.nav_hover:hover::after
+{
+	width:100%;
+	transition:width .3s;
+}
+
+/*SocialMedia HoverEffects Starts Here*/
+.facebook:hover
+{
+	background-color:blue;
+}
+
+.twitter:hover,.behance:hover
+{
+	background-color:#12EDFF;
+}
+
+/*SocialMedia HoverEffects Ends Here*/
+
+
